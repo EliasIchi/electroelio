@@ -84,7 +84,7 @@ footer {
 }
 
 .product img {
-    max-width: 100%;
+    max-width: 200px;
     height: auto;
     max-height: 200px; /* Puedes ajustar esta altura según tus necesidades */
 }
