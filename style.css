@@ -72,23 +72,19 @@ footer {
 
 /* Estilos de los productos */
 .products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .product {
+    width: 30%;
+    margin-bottom: 20px;
     text-align: center;
-    padding: 10px;
-    border: 1px solid #ccc;
 }
 
 .product img {
-    max-width: 10%; /* Establecemos el ancho máximo del 100% para que las imágenes se ajusten al contenedor */
-    height: 20px;
-    margin-bottom: 10px;
-}
-
-.product h3, .product p {
-    margin: 0;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Puedes ajustar esta altura según tus necesidades */
 }
