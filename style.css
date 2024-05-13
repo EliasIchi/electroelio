@@ -84,7 +84,7 @@ footer {
 }
 
 .product img {
-    max-width: 100%; /* Establecemos el ancho máximo del 100% para que las imágenes se ajusten al contenedor */
+    max-width: 10%; /* Establecemos el ancho máximo del 100% para que las imágenes se ajusten al contenedor */
     height: auto;
     margin-bottom: 10px;
 }
