@@ -69,3 +69,21 @@ footer {
 .btn:hover {
     background-color: #0056b3;
 }
+
+/* Estilos de los productos */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
